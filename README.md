@@ -90,8 +90,8 @@ My AI agent agency's flagship builds — production AI agents & automations for 
 - 🎬 **[YouTube Automation](https://github.com/M9Bazooka/ai-automations-showcase/tree/master/youtube-automation)** — an end-to-end pipeline that researches a topic, writes a script, generates voiceover/music/images/AI video, assembles a finished 1080p film and schedules it to YouTube — hands-off · *Claude · ElevenLabs · fal.ai · FFmpeg*
 - 📌 **[Pinterest + Instagram Automation](https://github.com/M9Bazooka/ai-automations-showcase/tree/master/social-media-automation)** — a scheduled content factory that turns one spreadsheet row into an AI-generated vertical video posted to both platforms, with affiliate compliance baked in · *Claude · Higgsfield · Pinterest & Instagram APIs*
 
-### 🔴 [Autonomous Red Teaming Framework](https://github.com/M9Bazooka/ik-designs-showcase)
-My MSc dissertation project — an agentic framework that autonomously red-teams other AI agents and systems, surfacing security vulnerabilities before real attackers do.
+### 🛋️ [IK Designs — Custom Furniture Platform](https://github.com/M9Bazooka/ik-designs-showcase)
+A full-stack production website for a Hyderabad custom-furniture studio — live at **[ikdesigns.in](https://ikdesigns.in)**. A six-step guided **order builder** (room → furniture → per-item materials, finishes & dimensions → mood board), **public order tracking** by reference number with a live 8-stage timeline, and a **JWT-secured admin dashboard** for order management, consultation→order conversion, catalog CRUD, server-side analytics and print-ready PDF quotes. Built with Next.js 14, TypeScript, Prisma & PostgreSQL.
 
 <br/>
 
