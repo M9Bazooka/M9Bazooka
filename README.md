@@ -84,8 +84,11 @@ QR-based, multi-tenant restaurant ordering SaaS — real-time menus, live order 
 ### 🇬🇧 [Tap2DineIn](https://github.com/M9Bazooka/tap2dineinn-showcase)
 A UK-focused restaurant ordering platform I co-founded — bringing fast, frictionless dine-in and takeaway ordering to British restaurants.
 
-### 🤖 [Aether AI](https://github.com/M9Bazooka/aether-ai-showcase)
-My AI agent agency — designing and shipping voice agents, workflow automation and multi-agent systems for real, paying clients using Claude, n8n, Twilio & ElevenLabs.
+### 🤖 [AI Automations Portfolio](https://github.com/M9Bazooka/ai-automations-showcase) — Aether AI
+My AI agent agency's flagship builds — production AI agents & automations for real businesses, with full architecture and engineering write-ups (no source code):
+- 🎙️ **[Voice Agent](https://github.com/M9Bazooka/ai-automations-showcase/tree/master/voice-agent)** — an AI phone agent that handles a restaurant's calls and runs the full reservation lifecycle in natural, low-latency speech · *Twilio · GPT-4.1-mini · ElevenLabs · n8n*
+- 🎬 **[YouTube Automation](https://github.com/M9Bazooka/ai-automations-showcase/tree/master/youtube-automation)** — an end-to-end pipeline that researches a topic, writes a script, generates voiceover/music/images/AI video, assembles a finished 1080p film and schedules it to YouTube — hands-off · *Claude · ElevenLabs · fal.ai · FFmpeg*
+- 📌 **[Pinterest + Instagram Automation](https://github.com/M9Bazooka/ai-automations-showcase/tree/master/social-media-automation)** — a scheduled content factory that turns one spreadsheet row into an AI-generated vertical video posted to both platforms, with affiliate compliance baked in · *Claude · Higgsfield · Pinterest & Instagram APIs*
 
 ### 🔴 [Autonomous Red Teaming Framework](https://github.com/M9Bazooka/ik-designs-showcase)
 My MSc dissertation project — an agentic framework that autonomously red-teams other AI agents and systems, surfacing security vulnerabilities before real attackers do.
