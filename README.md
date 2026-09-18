@@ -1,132 +1,77 @@
-<div align="center">
+# Mohammed Waliuddin
 
-# Hi there, I'm Mohammed Waliuddin 👋
+**AI engineer.** I ship agentic LLM apps, voice agents, generative-media pipelines and full-stack products, from empty repo to deployed. I build with Claude Code and Cursor, and I own everything around the code: architecture, tests, hosting, DNS and, on one product, the hardware.
 
-### Agentic AI Engineer · AI-Native Full-Stack Developer
+Birmingham, UK, and ready to relocate to Dubai. English (professional), Urdu (native), Arabic (basic conversational).
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Shipping+production+AI+systems+with+Claude+Code;Founder+%40+Aether+AI+%E2%80%94+AI+agent+agency;Building+Eatlo+%F0%9F%8D%BD%EF%B8%8F+%E2%80%94+restaurant+SaaS+(eatlo.in);MSc+AI+%40+Aston+University%2C+UK)](https://git.io/typing-svg)
+**Live now:** [tapworth.co.uk](https://tapworth.co.uk) · [eatlo.in](https://eatlo.in) · [ik-designs.in](https://ik-designs.in)
 
-</div>
+---
 
-<br/>
+## Read the code
 
-## 🧑‍💻 About Me
+Most of my work is commercial and private, so this one is public in full.
 
-- 🎓 **MSc Artificial Intelligence** @ Aston University, Birmingham, UK *(2025–2026)*
-- 🏫 **BCA (AI Specialisation)** @ KL University, India — *GPA 9.14/10*
-- 🚀 I design, build and ship **production-grade AI systems** at speed using Claude Code & Cursor
-- 🏢 Founder of **Aether AI** — an AI agent agency with real, paying clients
-- 🍽️ Built & launched **[Eatlo](https://eatlo.in)** — a multi-tenant restaurant SaaS, taken from zero to paying customers
-- 🇬🇧 Co-founder of **Tap2DineIn** — a UK restaurant ordering platform
-- 🛡️ Researching how autonomous agents can red-team other AI agents — see below 👇
+### [comfy-thumbs](https://github.com/M9Bazooka/comfy-thumbs)
 
-## 🔭 Currently Working On
+Product thumbnails from a ComfyUI workflow, **where the product's own pixels always survive.**
 
-> **MSc Dissertation — _Autonomous Red Teaming Framework for Agentic AI Security_**
-> Designing agentic systems that autonomously probe, stress-test and surface vulnerabilities in other AI agents — bringing offensive-security thinking to the agentic AI era.
+A model asked to redraw a charger gets the ports wrong and invents a button. For affiliate content — where the picture is a claim about what someone will receive — that isn't a quality problem, it's a false advertisement. So the model is never shown the product: it generates only the scene, and the original pixels are composited back at output resolution. The client then verifies every opaque product pixel against the source and **refuses to save the image if a single one differs by more than 1/255.** Across every render made while building it, the maximum difference was 0.
 
-<br/>
+Measured on an RTX 4060 (8 GB): about 7–8 s per image warm, 4.33 GB peak VRAM on the core graph. 101 test cases, a mock ComfyUI replaying recorded real traffic so the integrity check runs for real in CI, and golden tests pinning every workflow node. CI on Ubuntu and Windows.
 
-## 🛠️ Tech Stack
+`TypeScript · ComfyUI · sharp · Zod · vitest`
 
-**Languages**
+---
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+## Built and running
 
-**AI / Machine Learning**
+| Project | What it is | Stack |
+|---|---|---|
+| **[Tapworth](https://tapworth.co.uk)** | An NFC terminal between a shop's till and its receipt printer, reading every line item as it prints. Feeds a merchant dashboard, a receipt wallet with a grounded AI agent, and a consent-gated identity score. I built the firmware too. | Python · FastAPI · PostgreSQL · Redis · ESP32-S3 |
+| **[Eatlo](https://eatlo.in)** | NFC and QR table ordering for Indian restaurants: four interfaces on one backend, a real-time kitchen display, AI menu import, CGST/SGST on every bill. Live with its first restaurants. | Node · Express · PostgreSQL · Socket.io |
+| **[IK Designs](https://ik-designs.in)** | Commerce platform for a Hyderabad furniture studio: a six-step order builder, public order tracking, PDF quotes. Replaced orders taken over WhatsApp. | Next.js 14 · TypeScript · Prisma |
+| **Affiliate Content Studio** | An Amazon product in, Pinterest and Instagram video plus copy out. Claude Code runs headless as the planner and the backend does the executing. 297 tests. | Next.js 15 · Claude Code · Higgsfield · FFmpeg |
+| **recruitment-intel** | Lead generation from job postings, CV ingestion, hybrid embedding-based candidate matching and human-approved outreach, for a UK agency. Every external service sits behind a swappable adapter with a fake, and it is GDPR-first. | Python · FastAPI · PostgreSQL · Docker · embeddings |
+| **AI OS** | My own multi-agent system: 20 agents behind a LangGraph orchestrator, 126 API routes, and an approval queue that outreach never bypasses. | LangGraph · FastAPI · Next.js · Ollama |
+| **[Hunter System](https://github.com/M9Bazooka/hunter-system)** | A Solo Leveling-inspired training PWA, offline-capable and local-first, with one progression engine serving two training modes. 121 tests. | TypeScript · Vite · PWA |
+| **[Pookie Cup Bot](https://github.com/M9Bazooka/pookie-cup-bot)** | A Discord tournament bot running swiss and double-elimination brackets, a live draft lottery and a Claude-powered assistant, for a League community. | discord.js v14 · Claude · drizzle · SQLite |
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+## Write-ups
 
-**LLMs, Agents & Voice AI**
+Source is private for the commercial work, so these repos carry the architecture and the engineering decisions instead.
 
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP%20%7C%20Tool--Use-2C2C54?style=for-the-badge)
+- **[ai-automations-showcase](https://github.com/M9Bazooka/ai-automations-showcase)** — a restaurant voice agent that books tables over a real phone call, an end-to-end YouTube production pipeline, and a Pinterest/Instagram content factory
+- **[eatlo-showcase](https://github.com/M9Bazooka/eatlo-showcase)** · **[ik-designs-showcase](https://github.com/M9Bazooka/ik-designs-showcase)** · **[tap2dineinn-showcase](https://github.com/M9Bazooka/tap2dineinn-showcase)**
 
-**Full-Stack Development**
+## Currently building
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+- **Night Audit** — a Roblox horror game whose rulebook regenerates every shift, built with Claude Code driving Roblox Studio and Blender over MCP. I started with no Luau experience.
+- **MSc dissertation** at Aston University: a pre-registered study on memory-guided adaptive red teaming of LLMs, with a sham-memory control to separate retrieval gains from in-context ones. 502 tests.
 
-**Cloud & DevOps**
+## How I build
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+- **The agents type. I own the design.** Claude Code and Cursor write most of the code; I own the architecture, the written contracts they work from, and the tests that decide when something is done.
+- **Model output is untrusted.** It gets validated, repaired or discarded before it reaches a user or a live system. Tapworth's agent deletes any figure it cannot back with a tool result; comfy-thumbs refuses to save an image whose product pixels drifted.
+- **Rules that matter live in code.** Guardrails, disclosures and spending limits are enforced and tested, not requested in a prompt.
 
-<br/>
+## Toolkit
 
-## 🏆 Featured Projects
+**AI** Claude Code · Cursor · Anthropic & OpenAI APIs · LangGraph · LangChain · MCP · LiteLLM · Hugging Face · Ollama · PyTorch
 
-### 🍽️ [Eatlo](https://github.com/M9Bazooka/eatlo-showcase)
-QR-based, multi-tenant restaurant ordering SaaS — real-time menus, live order tracking and a kitchen dashboard, taken from **zero to paying customers**. Built with React, Node.js, PostgreSQL & Socket.io. Live at **[eatlo.in](https://eatlo.in)**.
+**Media** ComfyUI · Higgsfield · fal.ai · ElevenLabs · FFmpeg · sharp
 
-### 🇬🇧 [Tap2DineIn](https://github.com/M9Bazooka/tap2dineinn-showcase)
-A UK-focused restaurant ordering platform I co-founded — bringing fast, frictionless dine-in and takeaway ordering to British restaurants.
+**Backend** Python · FastAPI · Node · Express · PostgreSQL · Prisma · SQLAlchemy · Redis · Socket.io
 
-### 🤖 [AI Automations Portfolio](https://github.com/M9Bazooka/ai-automations-showcase) — Aether AI
-My AI agent agency's flagship builds — production AI agents & automations for real businesses, with full architecture and engineering write-ups (no source code):
-- 🎙️ **[Voice Agent](https://github.com/M9Bazooka/ai-automations-showcase/tree/master/voice-agent)** — an AI phone agent that handles a restaurant's calls and runs the full reservation lifecycle in natural, low-latency speech · *Twilio · GPT-4.1-mini · ElevenLabs · n8n*
-- 🎬 **[YouTube Automation](https://github.com/M9Bazooka/ai-automations-showcase/tree/master/youtube-automation)** — an end-to-end pipeline that researches a topic, writes a script, generates voiceover/music/images/AI video, assembles a finished 1080p film and schedules it to YouTube — hands-off · *Claude · ElevenLabs · fal.ai · FFmpeg*
-- 📌 **[Pinterest + Instagram Automation](https://github.com/M9Bazooka/ai-automations-showcase/tree/master/social-media-automation)** — a scheduled content factory that turns one spreadsheet row into an AI-generated vertical video posted to both platforms, with affiliate compliance baked in · *Claude · Higgsfield · Pinterest & Instagram APIs*
+**Frontend** React · Next.js · TypeScript · Tailwind · PWAs · Arabic RTL
 
-### 🛋️ [IK Designs — Custom Furniture Platform](https://github.com/M9Bazooka/ik-designs-showcase)
-A full-stack production website for a Hyderabad custom-furniture studio — live at **[ikdesigns.in](https://ik-designs.in)**. A six-step guided **order builder** (room → furniture → per-item materials, finishes & dimensions → mood board), **public order tracking** by reference number with a live 8-stage timeline, and a **JWT-secured admin dashboard** for order management, consultation→order conversion, catalog CRUD, server-side analytics and print-ready PDF quotes. Built with Next.js 14, TypeScript, Prisma & PostgreSQL.
+**Infra** Docker · GitHub Actions · AWS · Railway · Vercel · Cloudflare · Supabase
 
-<br/>
+## Background
 
-## 📊 GitHub Stats
+MSc Artificial Intelligence, Aston University (2025-2026) · BCA with AI specialisation, KL University (GPA 9.14/10) · AWS Certified AI Practitioner · IBM AI Developer · Automation Anywhere RPA Advanced · Founder of **Verris**, an AI studio
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=M9Bazooka&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Mohammed's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M9Bazooka&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</div>
+## Contact
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=M9Bazooka&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
-</div>
-
-<br/>
-
-## 📜 Certifications
-
-- 🟧 **AWS Certified AI Practitioner**
-- 🔵 **IBM AI Developer Professional**
-
-<br/>
-
-## 🤝 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-waliuddin/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohd.wali.uddin.2003@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-eatlo.in-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://eatlo.in)
-
-</div>
-
-<br/>
-
-<div align="center">
-  <i>Building useful things with AI — and shipping them. 🚀</i>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-waliuddin/)
