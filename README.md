@@ -143,17 +143,21 @@ Each card opens a write-up with the architecture, the decisions and — where I 
 
 <br>
 
+## Research
+
+**Memory-guided adaptive red teaming of LLMs** — my MSc dissertation at Aston University, completed in 2026. A pre-registered study asking whether a layered attack memory makes an automated red-teamer more effective, and whether the gain comes from similarity-based retrieval or simply from having examples in context. It answers that with a length-matched sham-memory control, an epsilon-greedy bandit per risk category against a locally hosted 4-bit Llama 3.1, and campaign-level paired permutation tests. 502 passing tests, per-run cost tracking, and a pilot bug filed as a formal pre-registration amendment rather than quietly patched.
+
+<br>
+
 ## Currently building
 
 **Night Audit** — a Roblox horror game whose rulebook regenerates every shift, so the answers can't be looked up online. Claude Code drives Roblox Studio and Blender over MCP from a written project contract. I started with no Luau experience.
-
-**MSc dissertation**, Aston University — a pre-registered study on memory-guided adaptive red teaming of LLMs, with a length-matched sham-memory control to separate retrieval gains from simply having examples in context. 502 tests, and a pilot bug filed as a formal pre-registration amendment rather than quietly patched.
 
 <br>
 
 ## Background
 
-**MSc Artificial Intelligence** — Aston University, 2025–2026<br>
+**MSc Artificial Intelligence** — Aston University, completed 2026<br>
 **BCA, AI specialisation** — KL University, GPA 9.14/10<br>
 **AWS Certified AI Practitioner** · **IBM AI Developer** · **Automation Anywhere RPA Advanced**<br>
 Founder of **Verris**, an AI studio building agents, automations and web platforms for businesses<br>
