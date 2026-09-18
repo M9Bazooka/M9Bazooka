@@ -39,6 +39,8 @@
 
 ### [comfy-thumbs](https://github.com/M9Bazooka/comfy-thumbs) — where the product's own pixels always survive
 
+<a href="https://github.com/M9Bazooka/comfy-thumbs"><img src="assets/card-comfy.png" width="46%" align="right" alt="comfy-thumbs"></a>
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/M9Bazooka/comfy-thumbs/main/examples/outputs/charger-pinterest.jpg" alt="Generated Pinterest pin of a charger" height="215">
 <img src="https://raw.githubusercontent.com/M9Bazooka/comfy-thumbs/main/examples/outputs/camera-square.jpg" alt="Generated square post of a camera" height="215">
@@ -64,10 +66,12 @@ A model asked to redraw a charger gets the ports wrong and invents a button. For
 ## Built and running
 
 <div align="center">
-<a href="https://github.com/M9Bazooka/tapworth-showcase"><img src="https://github-readme-stats.vercel.app/api/pin/?username=M9Bazooka&repo=tapworth-showcase&theme=tokyonight&hide_border=true&description_lines_count=3" height="120"></a>
-<a href="https://github.com/M9Bazooka/affiliate-content-studio-showcase"><img src="https://github-readme-stats.vercel.app/api/pin/?username=M9Bazooka&repo=affiliate-content-studio-showcase&theme=tokyonight&hide_border=true&description_lines_count=3" height="120"></a>
-<a href="https://github.com/M9Bazooka/ai-os-showcase"><img src="https://github-readme-stats.vercel.app/api/pin/?username=M9Bazooka&repo=ai-os-showcase&theme=tokyonight&hide_border=true&description_lines_count=3" height="120"></a>
-<a href="https://github.com/M9Bazooka/eatlo-showcase"><img src="https://github-readme-stats.vercel.app/api/pin/?username=M9Bazooka&repo=eatlo-showcase&theme=tokyonight&hide_border=true&description_lines_count=3" height="120"></a>
+
+<a href="https://github.com/M9Bazooka/tapworth-showcase"><img src="assets/card-tapworth.png" width="46%" alt="Tapworth"></a>
+<a href="https://github.com/M9Bazooka/affiliate-content-studio-showcase"><img src="assets/card-studio.png" width="46%" alt="Affiliate Content Studio"></a>
+<a href="https://github.com/M9Bazooka/ai-os-showcase"><img src="assets/card-aios.png" width="46%" alt="AI OS"></a>
+<a href="https://github.com/M9Bazooka/eatlo-showcase"><img src="assets/card-eatlo.png" width="46%" alt="Eatlo"></a>
+
 </div>
 
 <details>
@@ -285,14 +289,7 @@ Guardrails, legal disclosures and spending limits are enforced by code and cover
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=M9Bazooka&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true">
-  <img src="https://github-readme-stats.vercel.app/api?username=M9Bazooka&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" height="165">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=M9Bazooka&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M9Bazooka&layout=compact&hide_border=true&langs_count=8&count_private=true" height="165">
-</picture>
+<img src="assets/langs.png" width="800" alt="Language distribution across every repository: JavaScript 48%, Python 32.6%, TypeScript 11.4%, HTML 6.5%, CSS 0.6%, C++ firmware 0.4%">
 
 ### Background
 
