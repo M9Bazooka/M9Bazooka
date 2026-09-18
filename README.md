@@ -293,9 +293,11 @@ Guardrails, legal disclosures and spending limits are enforced by code and cover
 
 ### Background
 
-**MSc Artificial Intelligence**, Aston University (2025–2026) · **BCA, AI specialisation**, KL University — GPA 9.14/10
-**AWS Certified AI Practitioner** · **IBM AI Developer** · **Automation Anywhere RPA Advanced**
-Founder of **Verris**, an AI studio · English (professional) · Urdu (native) · Arabic (basic conversational)
+**MSc Artificial Intelligence** — Aston University, 2025–2026<br>
+**BCA, AI specialisation** — KL University, GPA 9.14/10<br>
+**AWS Certified AI Practitioner** · **IBM AI Developer** · **Automation Anywhere RPA Advanced**<br>
+Founder of **Verris**, an AI studio<br>
+English (professional) · Urdu (native) · Arabic (basic conversational)
 
 <br>
 
